@@ -17,9 +17,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container">
         <div class="header-inner">
           <nav class="header-nav">
@@ -61,10 +62,10 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
     <main>
       <!-- Hero section -->
-      <section class="hero-section">
+      <!-- <section class="hero-section">
         <div class="container">
           <div class="hero-inner">
             <h1 class="hero-title">
@@ -87,7 +88,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Advantages section -->
       <section id="advantage-section" class="advantage-section">
@@ -145,7 +146,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">
-            It all adds up to one exceptional taste sensation
+            It all adds up to one exceptional <span>taste</span> sensation
           </h2>
           <p class="ingridients-subtitle">
             At Simply Chocolate, we believe that the secret to exceptional
@@ -200,11 +201,10 @@
 
       <!-- Video section -->
       <section class="section">
-        <div class="container">
-          <h2 class="section-title">How it's made?</h2>
+        <div class="container container-video">
+          <h2 class="section-title">How it's <span>made</span>?</h2>
           <div class="video-inner">
             <div class="video-media">
-              <!-- placeholder for video. TODO: replace with video -->
               <img
                 class="video-background"
                 src="./images/video-bg.jpg"
@@ -247,7 +247,7 @@
       <!-- Products section -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Our products</h2>
+          <h2 class="section-title">Our <span>products</span></h2>
           <ul class="products-list">
             <li class="products-item">
               <article class="product">
@@ -317,7 +317,7 @@
       <!-- Reviews section -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Chocolate is loved</h2>
+          <h2 class="section-title">Chocolate is <span>loved</span></h2>
           <ul class="reviews-list">
             <li class="reviews-item">
               <article class="review">
@@ -371,7 +371,7 @@
     <footer></footer>
 
     <!-- Modal -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" type="button" data-modal-close>X</button>
         <h2 class="section-title">Buy now</h2>
